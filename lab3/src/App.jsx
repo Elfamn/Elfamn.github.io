@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/lab3">
       <div className="app-container">
         <Header />
         <main className="main-content">
