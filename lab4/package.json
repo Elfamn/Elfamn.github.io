@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://elfamn.github.io/lab4",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
