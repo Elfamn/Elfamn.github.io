@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && xcopy dist\\* ..\\lab3\\ /E /Y"
+    "deploy": "npm run build && xcopy dist\\* ..\\lab4\\ /E /Y"
   },
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
