@@ -19,7 +19,7 @@ const Place = ({ place, countryName, openGlobalModal }) => {
                     ...tripData,
                     place: tripData.place || place.name,
                     country: tripData.country || countryName,
-                    image: place.image || `./images/${place.name.toLowerCase().replace(/\s+/g, '-')}.jpg`
+                    image: place.image || `/images/${place.name.toLowerCase().replace(/\s+/g, '-')}.jpg`
                 };
                 
                 console.log('Дані для збереження:', updatedTripData);

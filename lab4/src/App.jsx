@@ -129,7 +129,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lab4">
       <AuthProvider>
         <ErrorBoundary>
           <AppContent />

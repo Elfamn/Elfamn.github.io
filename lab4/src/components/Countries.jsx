@@ -22,7 +22,7 @@ const Countries = ({ openGlobalModal }) => {
                 acc[country] = {
                     id: country.toLowerCase().replace(/\s+/g, '-'),
                     name: country,
-                    image: destination.countryImage || `./images/${country.toLowerCase().replace(/\s+/g, '-')}.jpg`,
+                    image: destination.countryImage || `${import.meta.env.BASE_URL}/images/${country.toLowerCase().replace(/\s+/g, '-')}.jpg`,
                     places: []
                 };
             }

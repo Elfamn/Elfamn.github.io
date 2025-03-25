@@ -49,7 +49,7 @@ function Home() {
           <h2>Популярні напрямки</h2>
           <div className="trips-list">
             <div className="trip-card">
-              <img src="/images/paris.jpg" alt="Париж, Франція" />
+              <img src={`${import.meta.env.BASE_URL}images/paris.jpg`} alt="Париж, Франція" />
               <div className="trip-info">
                 <div className="trip-header">
                   <h3>Париж</h3>
@@ -62,7 +62,7 @@ function Home() {
               </div>
             </div>
             <div className="trip-card">
-              <img src="/images/dubai.jpg" alt="Дубай, ОАЕ" />
+              <img src={`${import.meta.env.BASE_URL}/images/dubai.jpg`} alt="Дубай, ОАЕ" />
               <div className="trip-info">
                 <div className="trip-header">
                   <h3>Дубай</h3>
@@ -75,7 +75,7 @@ function Home() {
               </div>
             </div>
             <div className="trip-card">
-              <img src="/images/rome.jpg" alt="Рим, Італія" />
+              <img src={`${import.meta.env.BASE_URL}/images/rome.jpg`} alt="Рим, Італія" />
               <div className="trip-info">
                 <div className="trip-header">
                   <h3>Рим</h3>
@@ -88,7 +88,7 @@ function Home() {
               </div>
             </div>
             <div className="trip-card">
-              <img src="/images/london.jpg" alt="Лондон, Англія" />
+              <img src={`${import.meta.env.BASE_URL}/images/london.jpg`} alt="Лондон, Англія" />
               <div className="trip-info">
                 <div className="trip-header">
                   <h3>Лондон</h3>
