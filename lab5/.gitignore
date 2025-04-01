@@ -62,4 +62,5 @@ functions/dist/
 server/node_modules/
 server/dist/
 server/.env
+server/serviceAccountKey.json
 dataconnect-generated/
